@@ -19,15 +19,8 @@ $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>View Record</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .wrapper {
-            width: 600px;
-            margin: 0 auto;
-        }
-    </style>
+    <title>View Record</title>    
+    <?php include('../layouts/employee-style.php'); ?>
 </head>
 
 <body>
@@ -53,6 +46,7 @@ $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
             </div>
         </div>
     </div>
+    <?php include('../layouts/employee-script.php'); ?>
 </body>
 
 </html>

@@ -19,11 +19,10 @@ $data  = mysqli_fetch_all($result, MYSQLI_ASSOC);
 <head>
     <title>Dashboard</title>
     <?php include('../layouts/employee-style.php'); ?>
-    <?php include('../layouts/employee-script.php'); ?>
 </head>
 
 <body>
-    <section class="wrapper">
+    <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -50,10 +49,15 @@ $data  = mysqli_fetch_all($result, MYSQLI_ASSOC);
                                     <td><?= $row['salary'] ?></td>
                                     <td>
                                         <a href="detail.php?id=<?= $row['id'] ?>" class="mr-3" title="View Record" data-toggle="tooltip"><span class="fa fa-eye"></span></a>
-                                        <a href="update.php?id=<?= $row['id'] ?>" class="mr-3" title="Update Record" data-toggle="tooltip"><span class="fa fa-pencil"></span></a>
-                                        <a href="delete.php?id=<?= $row['id'] ?>" title="Delete Record" data-toggle="tooltip"><span class="fa fa-trash"></span></a>
+                                        <a href="edit.php?id=<?= $row['id'] ?>" class="mr-3" title="Update Record" data-toggle="tooltip"><span class="fa fa-pencil"></span></a>
+                                        <!-- <a href="delete.php?id=<?= $row['id'] ?>" title="Delete Record" data-toggle="tooltip"><span class="fa fa-trash"></span></a> -->
+                                        <form method="POST" action="delete.php" style="display:inline">
+                                            <input type="hidden" name="id" value="<?= $row['id'] ?>">
+                                            <button type="submit" class="btn btn-link p-0 m-0" onclick="return confirm('Confirm delete?')" title="Delete Record" data-toggle="tooltip">
+                                                <span class="fa fa-trash"></span>
+                                            </button>
+                                        </form>
                                     </td>
-
                                 </tr>
                             <?php } ?>
                         </tbody>
@@ -61,7 +65,9 @@ $data  = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <?php include('../layouts/employee-script.php'); ?>
 </body>
 
 </html>
