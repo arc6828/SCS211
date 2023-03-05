@@ -12,7 +12,7 @@ if (mysqli_num_rows($result) == 0) {
 }
 /* Fetch result row as an associative array. Since the result set
                 contains only one row, we don't need to use while loop */
-$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+$row = mysqli_fetch_assoc($result);
 ?>
 
 <!DOCTYPE html>
