@@ -7,7 +7,7 @@ $sql = "SELECT * FROM employees WHERE id = '{$_GET["id"]}'";
 $result = mysqli_query($link, $sql);
 if (mysqli_num_rows($result) == 0) {
     // URL doesn't contain valid id parameter. Redirect to error page
-    header("location: error.php");
+    header("location: ../error.php");
     exit();
 }
 /* Fetch result row as an associative array. Since the result set
@@ -19,7 +19,7 @@ $row = mysqli_fetch_assoc($result);
 <html lang="en">
 
 <head>
-    <title>Update Record</title>   
+    <title>Update Record</title>
     <?php include('../layouts/employee-style.php'); ?>
 </head>
 
@@ -33,17 +33,17 @@ $row = mysqli_fetch_assoc($result);
                     <form action="update.php" method="post">
                         <div class="form-group">
                             <label>Name</label>
-                            <input type="text" name="name" class="form-control" value="<?php echo $row["name"]; ?>">
+                            <input type="text" name="name" class="form-control" value="<?= $row["name"] ?>">
                         </div>
                         <div class="form-group">
                             <label>Address</label>
-                            <textarea name="address" class="form-control"><?php echo $row["address"]; ?></textarea>
+                            <textarea name="address" class="form-control"><?= $row["address"] ?></textarea>
                         </div>
                         <div class="form-group">
                             <label>Salary</label>
-                            <input type="text" name="salary" class="form-control" value="<?php echo $row["salary"]; ?>">
+                            <input type="text" name="salary" class="form-control" value="<?= $row["salary"] ?>">
                         </div>
-                        <input type="hidden" name="id" value="<?php echo $row["id"]; ?>" />
+                        <input type="hidden" name="id" value="<?= $row["id"] ?>" />
                         <input type="submit" class="btn btn-primary" value="Submit">
                         <a href="index.php" class="btn btn-secondary ml-2">Cancel</a>
                     </form>
@@ -51,7 +51,7 @@ $row = mysqli_fetch_assoc($result);
             </div>
         </div>
     </div>
-    
+
     <?php include('../layouts/employee-script.php'); ?>
 </body>
 

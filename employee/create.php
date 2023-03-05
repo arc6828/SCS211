@@ -5,6 +5,7 @@
     <title>Create Record</title>
     <?php include('../layouts/employee-style.php'); ?>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="container-fluid">
@@ -34,4 +35,5 @@
     </div>
     <?php include('../layouts/employee-script.php'); ?>
 </body>
+
 </html>
