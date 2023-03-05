@@ -20,6 +20,4 @@ if (isset($_POST["id"]) && !empty($_POST["id"])) {
 
     // Close connection
     // mysqli_close($link);
-}else{
-    echo "No ID";
 }
