@@ -23,6 +23,7 @@ $data  = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
+    <?php include('../layouts/basic-nav.php');?>
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
