@@ -1,6 +1,6 @@
 <?php
 // Include config file
-require_once "../config.php";
+require_once "config.php";
 
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = "";
@@ -99,11 +99,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 
 <head>
-    <title>Sign Up</title>    
-    <?php include('../layouts/employee-style.php'); ?>
+    <title>Sign Up</title>
+    <?php include('layouts/employee-style.php'); ?>
 </head>
 
 <body>
+    <?php include('layouts/basic-nav.php'); ?>
     <div class="wrapper">
         <h2>Sign Up</h2>
         <p>Please fill this form to create an account.</p>

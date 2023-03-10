@@ -9,7 +9,7 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
 }
 
 // Include config file
-require_once "../config.php";
+require_once "config.php";
 
 // Define variables and initialize with empty values
 $username = $password = "";
@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Password is not valid, display a generic error message
                 $login_err = "Invalid username or password.";
             }
-        }        
+        }
     }
 
     // Close connection
@@ -75,11 +75,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 
 <head>
-    <title>Login</title>    
-    <?php include('../layouts/employee-style.php'); ?>
+    <title>Login</title>
+    <?php include('layouts/employee-style.php'); ?>
 </head>
 
 <body>
+    <?php include('layouts/basic-nav.php'); ?>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>

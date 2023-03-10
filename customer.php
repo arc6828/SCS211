@@ -1,6 +1,6 @@
 <?php
 // Include config file
-require_once "../config.php";
+require_once "config.php";
 
 session_start();
 // Attempt select query execution
@@ -19,11 +19,11 @@ $data  = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 <head>
     <title>Dashboard</title>
-    <?php include('../layouts/employee-style.php'); ?>
+    <?php include('layouts/employee-style.php'); ?>
 </head>
 
 <body>
-    <?php include('../layouts/basic-nav.php');?>
+    <?php include('layouts/basic-nav.php');?>
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
@@ -58,7 +58,7 @@ $data  = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </div>
     </div>
 
-    <?php include('../layouts/employee-script.php'); ?>
+    <?php include('layouts/employee-script.php'); ?>
 </body>
 
 </html>
