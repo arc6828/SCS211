@@ -1,10 +1,10 @@
 <?php
 // Include config file
-require_once "config.php";
+require_once "../../config.php";
 
 session_start();
 // Attempt select query execution
-$sql = "SELECT * FROM customers where user_id = '{$_SESSION["id"]}'";
+$sql = "SELECT * FROM users";
 $result = mysqli_query($link, $sql);
 // Fetch all data in an array
 $data  = mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -19,36 +19,32 @@ $data  = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 <head>
     <title>Dashboard</title>
-    <?php include('layouts/employee-style.php'); ?>
+    <?php include('../../layouts/employee-style.php'); ?>
 </head>
 
 <body>
-    <?php include('layouts/basic-nav.php');?>
+    <?php include('../../layouts/admin-nav.php'); ?>
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="mt-5 mb-3 clearfix">
-                        <h2 class="pull-left">My Customers </h2>
+                        <h2 class="pull-left">User Account</h2>
                     </div>
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Name</th>
-                                <th>Age</th>
-                                <th>Email</th>
-                                <th>Address</th>
+                                <th>Username</th>
+                                <th>Created At</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php foreach ($data as $row) { ?>
                                 <tr>
                                     <td><?= $row['id'] ?></td>
-                                    <td><?= $row['name'] ?></td>
-                                    <td><?= $row['age'] ?></td>    
-                                    <td><?= $row['email'] ?></td>    
-                                    <td><?= $row['address'] ?></td>                                
+                                    <td><?= $row['username'] ?></td>
+                                    <td><?= $row['created_at'] ?></td>
                                 </tr>
                             <?php } ?>
                         </tbody>
@@ -58,7 +54,7 @@ $data  = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </div>
     </div>
 
-    <?php include('layouts/employee-script.php'); ?>
+    <?php include('../../layouts/employee-script.php'); ?>
 </body>
 
 </html>
