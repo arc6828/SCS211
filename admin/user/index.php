@@ -3,6 +3,12 @@
 require_once "../../config.php";
 
 session_start();
+// Check if the user is logged in, if not then redirect him to login page
+if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
+    header("location: ../../login.php");
+    exit;
+}
+
 // Attempt select query execution
 $sql = "SELECT * FROM users";
 $result = mysqli_query($link, $sql);
