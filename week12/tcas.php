@@ -32,7 +32,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="https://cs.vru.ac.th/css/style.css">
+    <link rel="stylesheet" href="http://cs.vru.ac.th/css/style.css">
     <style>
         h1,
         h2,
@@ -137,7 +137,7 @@
             margin-top: -150px;
         }
     </style>
-    <link rel="icon" href="https://cs.vru.ac.th/images/css.png">
+    <link rel="icon" href="http://cs.vru.ac.th/images/css.png">
     <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
 </head>
 
@@ -148,7 +148,7 @@
                 <div class="site-mobile-menu-close mt-3">
                     <span class="icon-close2 js-menu-toggle"></span>
                 </div>
-                <img class="m-4" src="https://cs.vru.ac.th/images/css.png" height="70">
+                <img class="m-4" src="http://cs.vru.ac.th/images/css.png" height="70">
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
@@ -160,7 +160,7 @@
                     <div class="site-logo">
                         <a href="index.php" class="text-left">
                             <div class="" style="display: flex; flex-direction:row;">
-                                <img class="d-lg-block d-md-none d-sm-none d-none my-1" src="https://cs.vru.ac.th/images/css.png" height="70">
+                                <img class="d-lg-block d-md-none d-sm-none d-none my-1" src="http://cs.vru.ac.th/images/css.png" height="70">
                                 <div class="d-lg-block" style="line-height: 0.3;   padding-top: 18px;     padding-left: 10px;">
                                     <h1 style="margin-bottom:0px; font-size: 0.8em;" class="text-dark">วิทยาการคอมพิวเตอร์</h1>
                                     <small class="" style="font-size: 0.35em; color:#777;">มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</small>
@@ -260,7 +260,7 @@
                 <h1><i class="fa fa-star"></i> รับสมัครนักศึกษาปริญญาตรี (จันทร์-ศุกร์ และ เสาร์-อาทิตย์)</h1>
                 <hr>
 
-                <img class="img-thumbnail" src="https://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg" width="100%">
+                <img class="img-thumbnail" src="http://cs.vru.ac.th/images/tcas/pr-2020-05-14.jpg" width="100%">
                 <p class="mt-4" style="font-size : 1.3rem;">
                     หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ รับสมัคร <strong>นักศึกษาปริญญาตรีปีการศึกษา 66 สำหรับเรียนจันทร์-ศุกร์ และเรียนเสาร์-อาทิตย์</strong> ตั้งแต่วันนี้เป็นต้นไป สนใจดูรายละเอียดและกรอกใบสมัครได้ที่นี่ สอบถามข้อมูลการรับสมัครเพิ่มเติม โทรด่วน. 02-909-1432 ต่อ 322 หรือ 323
                 </p>
@@ -645,10 +645,10 @@
         <!-- Technology Stack 2021 -->
         <div class="container-fluid py-5 bg-light">
             <div class="container">
-                <img class="img-thumbnail d-none" src="https://cs.vru.ac.th/images/tcas/pr-2020-04-27.jpg" style="max-width:500px; width:100%;">
+                <img class="img-thumbnail d-none" src="http://cs.vru.ac.th/images/tcas/pr-2020-04-27.jpg" style="max-width:500px; width:100%;">
                 <h2><i class="fa fa-rocket"></i>รายละเอียดหลักสูตร และ Technology Stack</h2>
                 <div class="mt-4 text-center ">
-                    <img class="img-thumbnail" src="https://cs.vru.ac.th/images/technology-stack.jpg" style="width:100%;">
+                    <img class="img-thumbnail" src="http://cs.vru.ac.th/images/technology-stack.jpg" style="width:100%;">
                 </div>
                 <div class="mt-4">
                     <h5>แต่ละชั้นปีเรียนอะไร ...</h5>
@@ -675,12 +675,12 @@
                 <p>หลักจากที่คุณได้สมัครเข้ามาแล้ว คุณสามารถติดตามข่าวสารการสมัครของคุณ รวมถึงการประกาศต่างๆ จากทางมหาวิทยาลัยอย่างใกล้ชิดให้ที่ Line กลุ่มของหลักสูตร โดยจะแบ่งเป็น 2 กลุ่ม ได้แก่่ </p>
                 <div class="row text-center">
                     <div class="col-lg-6 mb-4">
-                        <img class="img-thumbnail" src="https://cs.vru.ac.th/images/tcas/Line66-Mon-Fri.jpg" style="max-width:300px; width:100%;">
+                        <img class="img-thumbnail" src="http://cs.vru.ac.th/images/tcas/Line66-Mon-Fri.jpg" style="max-width:300px; width:100%;">
                         <div><strong>CS-VRU#66 (จันทร์ - ศุกร์)</strong></div>
                         <div><a href="https://line.me/R/ti/g/A1qfif64ro">https://line.me/R/ti/g/A1qfif64ro</a></div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <img class="img-thumbnail" src="https://cs.vru.ac.th/images/tcas/Line66-Sat-Sun.jpg" style="max-width:300px; width:100%;">
+                        <img class="img-thumbnail" src="http://cs.vru.ac.th/images/tcas/Line66-Sat-Sun.jpg" style="max-width:300px; width:100%;">
                         <div><strong>CS VRU #66 (เสาร์ - อาทิตย์)</strong></div>
                         <div><a href="https://line.me/R/ti/g/IpAq74I8OO">https://line.me/R/ti/g/IpAq74I8OO</a></div>
                     </div>
@@ -738,7 +738,7 @@
             <div class="row">
                 <div class="col-md-4 mx-auto">
                     <h2 class="footer-heading mb-4 d-none">ติดต่อเรา</h2>
-                    <img class="img-thumbnail rounded-circle mb-4" src="https://cs.vru.ac.th/images/css.png" style="width:70px; height:70px;" />
+                    <img class="img-thumbnail rounded-circle mb-4" src="http://cs.vru.ac.th/images/css.png" style="width:70px; height:70px;" />
                     <p>
                         หลักสูตรวิทยาการคอมพิวเตอร์ <br>
                         คณะวิทยาศาสตร์และเทคโนโลยี <br>
