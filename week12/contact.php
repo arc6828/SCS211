@@ -32,7 +32,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="https://cs.vru.ac.th/css/style.css">
+    <link rel="stylesheet" href="http://cs.vru.ac.th/css/style.css">
     <style>
         h1,
         h2,
@@ -137,7 +137,7 @@
             margin-top: -150px;
         }
     </style>
-    <link rel="icon" href="https://cs.vru.ac.th/images/css.png">
+    <link rel="icon" href="http://cs.vru.ac.th/images/css.png">
     <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
 </head>
 
@@ -148,7 +148,7 @@
                 <div class="site-mobile-menu-close mt-3">
                     <span class="icon-close2 js-menu-toggle"></span>
                 </div>
-                <img class="m-4" src="https://cs.vru.ac.th/images/css.png" height="70">
+                <img class="m-4" src="http://cs.vru.ac.th/images/css.png" height="70">
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
@@ -160,7 +160,7 @@
                     <div class="site-logo">
                         <a href="index.php" class="text-left">
                             <div class="" style="display: flex; flex-direction:row;">
-                                <img class="d-lg-block d-md-none d-sm-none d-none my-1" src="https://cs.vru.ac.th/images/css.png" height="70">
+                                <img class="d-lg-block d-md-none d-sm-none d-none my-1" src="http://cs.vru.ac.th/images/css.png" height="70">
                                 <div class="d-lg-block" style="line-height: 0.3;   padding-top: 18px;     padding-left: 10px;">
                                     <h1 style="margin-bottom:0px; font-size: 0.8em;" class="text-dark">วิทยาการคอมพิวเตอร์</h1>
                                     <small class="" style="font-size: 0.35em; color:#777;">มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</small>
@@ -294,7 +294,7 @@
             <p>&nbsp; &nbsp; &nbsp; &nbsp;มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</p>
             <p>&nbsp; &nbsp; &nbsp; &nbsp;เลขที่ 1 หมู่ 20 ถนนพหลโยธิน กม. 48 ต.คลองหนึ่ง อ.คลองหลวง จ.ปทุมธานี 13180</p>
             <p>&nbsp; &nbsp; &nbsp; &nbsp;โทรศัพท์ 0-2529-0674-7 ต่อ 365 โทรสาร 02-909-3029</p>
-            &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts"><img src="https://cs.vru.ac.th/images/facebook-icon-preview-1.png" width="50" height="50"> FACEBOOK หลักสูตรวิทยาการคอมพิวเตอร์</a>
+            &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.facebook.com/profile.php?id=100008113098809&fref=ts"><img src="http://cs.vru.ac.th/images/facebook-icon-preview-1.png" width="50" height="50"> FACEBOOK หลักสูตรวิทยาการคอมพิวเตอร์</a>
         </div>
     </div>
     <!-- end of content, see start in header -->
@@ -346,7 +346,7 @@
             <div class="row">
                 <div class="col-md-4 mx-auto">
                     <h2 class="footer-heading mb-4 d-none">ติดต่อเรา</h2>
-                    <img class="img-thumbnail rounded-circle mb-4" src="https://cs.vru.ac.th/images/css.png" style="width:70px; height:70px;" />
+                    <img class="img-thumbnail rounded-circle mb-4" src="http://cs.vru.ac.th/images/css.png" style="width:70px; height:70px;" />
                     <p>
                         หลักสูตรวิทยาการคอมพิวเตอร์ <br>
                         คณะวิทยาศาสตร์และเทคโนโลยี <br>
