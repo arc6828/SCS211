@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "education": "Bachelor's Degree in Business",
+      "role": "Sales Manager",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "education": "Master's Degree in Marketing",
+      "role": "Marketing Specialist",
+      "email": "jane.smith@example.com",
+      "phone": "987-654-3210"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "education": "Bachelor's Degree in Computer Science",
+      "role": "Software Engineer",
+      "email": "michael.johnson@example.com",
+      "phone": "555-123-4567"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Williams",
+      "education": "Master's Degree in Finance",
+      "role": "Financial Analyst",
+      "email": "sarah.williams@example.com",
+      "phone": "111-222-3333"
+    },
+    {
+      "id": 5,
+      "name": "David Lee",
+      "education": "Bachelor's Degree in Graphic Design",
+      "role": "UI/UX Designer",
+      "email": "david.lee@example.com",
+      "phone": "777-888-9999"
+    },
+    {
+      "id": 6,
+      "name": "Emily Taylor",
+      "education": "Bachelor's Degree in Psychology",
+      "role": "Human Resources Manager",
+      "email": "emily.taylor@example.com",
+      "phone": "444-555-6666"
+    },
+    {
+      "id": 7,
+      "name": "Andrew Roberts",
+      "education": "Bachelor's Degree in Economics",
+      "role": "Financial Advisor",
+      "email": "andrew.roberts@example.com",
+      "phone": "222-333-4444"
+    },
+    {
+      "id": 8,
+      "name": "Lisa Anderson",
+      "education": "Bachelor's Degree in Communication",
+      "role": "Marketing Manager",
+      "email": "lisa.anderson@example.com",
+      "phone": "999-888-7777"
+    }
+ ]
+
