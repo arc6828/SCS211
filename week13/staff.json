@@ -1,4 +1,5 @@
-[
+{
+  "people": [
     {
       "id": 1,
       "name": "John Doe",
@@ -63,5 +64,5 @@
       "email": "lisa.anderson@example.com",
       "phone": "999-888-7777"
     }
- ]
-
+  ]
+}
