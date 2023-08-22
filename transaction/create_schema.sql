@@ -14,11 +14,12 @@ VALUES
 
 -- Create the 'transactions' table
 CREATE TABLE transactions (
-    transaction_id INT PRIMARY KEY,
+    transaction_id INT NOT NULL AUTO_INCREMENT,
     account_number VARCHAR(10),
     amount DECIMAL(10, 2),
     transaction_type VARCHAR(20),
-    FOREIGN KEY (account_number) REFERENCES accounts(account_number)
+    FOREIGN KEY (account_number) REFERENCES accounts(account_number),
+    PRIMARY KEY (transaction_id)
 );
 
 -- Insert sample data into the 'transactions' table
